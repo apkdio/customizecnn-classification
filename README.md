@@ -27,12 +27,9 @@ pip install tensorflow scikit-learn matplotlib seaborn numpy tensorflow-datasets
 ```
 
 ## 使用说明
-1. 运行脚本：
-```bash
-python customizecnn-classification.py
-```
-
-2. 程序将自动执行以下流程：
+1. 在jupyter notebook环境下打开customizecnn-classification.ipynb
+2. 执行全部运行
+3. 程序将自动执行以下流程：
    - 下载并预处理EuroSAT RGB数据集
    - 构建并训练自定义CNN模型
    - 评估模型性能
